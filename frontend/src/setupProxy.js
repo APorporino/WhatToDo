@@ -15,7 +15,7 @@ module.exports = function (app) {
       "/sprint",
     ],
     createProxyMiddleware({
-      target: "http://localhost:5000",
+      target: "http://localhost:8080",
     })
   );
 };
